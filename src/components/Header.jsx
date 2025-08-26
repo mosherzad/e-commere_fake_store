@@ -3,7 +3,8 @@ import { SlidebarContext } from "../contexts/SlidebarContext";
 import { CardContext } from "../contexts/CardContext";
 import { BsBag } from "react-icons/bs";
 import { Link } from "react-router-dom";
-import Logo from "../assets/images/Logo.svg";
+import Logo from "../assets/images/logo.svg";
+
 const Header = () => {
   const [active, setActive] = useState(false);
   const { openSlidebar, setOpenSlidebar } = useContext(SlidebarContext);
