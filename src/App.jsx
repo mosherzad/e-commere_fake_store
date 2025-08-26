@@ -6,7 +6,7 @@ import ProductDetails from "./pages/ProductDetails";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import SlideBar from "./components/SlideBar";
+import SlideBar from "./components/Slidebar";
 function App() {
   return (
     <div className="overflow-hidden">
