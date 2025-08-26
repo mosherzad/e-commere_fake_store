@@ -31,7 +31,7 @@ const Home = () => {
   const [active, setActive] = useState("All");
 
   const baseStyle =
-    "relative text-[20px] hover:text-pink-600 font-semibold cursor-pointer transition-all duration-300 pb-1 after:content-[''] after:absolute after:left-0 after:-bottom-[2px] after:h-[2px] after:bg-pink-600 after:text-pink-600 after:transition-all after:duration-300";
+    "relative text-[20px] hover:text-red-500 font-semibold cursor-pointer transition-all duration-300 pb-1 after:content-[''] after:absolute after:left-0 after:-bottom-[2px] after:h-[2px] after:bg-pink-600 after:text-pink-600 after:transition-all after:duration-300";
   return (
     <div>
       <Hero />
@@ -42,7 +42,7 @@ const Home = () => {
             setActive("All");
           }}
           className={`${baseStyle} ${
-            active === "All" ? "after:w-full text-pink-600" : "after:w-0"
+            active === "All" ? "after:w-full text-red-500" : "after:w-0"
           }`}
         >
           All
@@ -53,7 +53,7 @@ const Home = () => {
             setActive("Men");
           }}
           className={`${baseStyle} ${
-            active === "Men" ? "after:w-full text-pink-600" : "after:w-0"
+            active === "Men" ? "after:w-full text-red-500" : "after:w-0"
           }`}
         >
           Men
@@ -64,7 +64,7 @@ const Home = () => {
             setActive("Women");
           }}
           className={`${baseStyle} ${
-            active === "Women" ? "after:w-full text-pink-600" : "after:w-0"
+            active === "Women" ? "after:w-full text-red-500" : "after:w-0"
           }`}
         >
           Woman
@@ -75,7 +75,7 @@ const Home = () => {
             setActive("Jewelery");
           }}
           className={`${baseStyle} ${
-            active === "Jewelery" ? "after:w-full text-pink-600" : "after:w-0"
+            active === "Jewelery" ? "after:w-full text-red-500" : "after:w-0"
           }`}
         >
           Jewelery

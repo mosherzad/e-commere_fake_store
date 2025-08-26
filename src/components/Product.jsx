@@ -20,7 +20,7 @@ const Product = ({ product }) => {
           </div>
         </div>
 
-        <div className="absolute top-5 -right-11 group-hover:right-5 p-2 flex flex-col justify-center items-center gap-y-2 opacity-0 group-hover:opacity-100 transition-all duration-300">
+        <div className="absolute top-5 right-5 lg:-right-11 group-hover:right-5 p-2 flex flex-col justify-center items-center gap-y-2 lg:opacity-0 group-hover:opacity-100 transition-all duration-300">
           <button onClick={() => addToCard(product, id)}>
             <div className="flex justify-center items-center bg-red-500 text-white w-12 h-12">
               <BsPlus className="text-2xl" />
